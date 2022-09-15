@@ -24,7 +24,7 @@ import com.gerenciador_tarefas.gerenciador_de_tarefas.presentation.TaskRequestDt
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/gerenciador-tarefas/task")
+@RequestMapping("api/gerenciador-tarefas/task")
 @AllArgsConstructor
 public class TaskController {
     private TaskService taskService;
